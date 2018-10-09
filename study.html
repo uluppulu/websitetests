@@ -27,7 +27,7 @@
       a.more:hover {
           color: rgb(181,24,45);
           text-decoration: underline;
-          font-weight:bold;
+          
       }
       
       /* selected link */
@@ -42,36 +42,37 @@
       
         
       <div class="w3-container">
-        <div class="w3-sidebar w3-bar-block w3-light-grey w3-card" style="width:20%">
-          <h5 class="w3-bar-item">Select one</h5>
-          <button class="w3-bar-item w3-button side-tablink w3-red" onclick="openSide(event, 'und-side')">Undergraduate Information</button>
-         
-          <button class="w3-bar-item w3-button side-tablink" onclick="openSide(event, 'post-side')">Postgraduate Information</button>
+        <div class="w3-sidebar w3-bar-block  " style="width:20%">
+         <br/>
+         <br/>
+        
+          <button class="w3-bar-item w3-button side-tablink w3-red" onclick="openSide(event, 'und-side')">Undergraduate</button>
+          <button class="w3-bar-item w3-button side-tablink" onclick="openSide(event, 'hons-side')">Honours</button>
+          <button class="w3-bar-item w3-button side-tablink" onclick="openSide(event, 'post-side')">Masters and Doctoral</button>
         </div>
         
         <div style="margin-left:20%">
-          <div class="w3-padding">Vertical Tab Example (sidebar)</div>
-        
-          <div id="und-side" class="w3-container side" >
+               
+        <div id="und-side" class="w3-container side" >
         <!-------------------______________________________________________________________________________________________________-->
         <div class="w3-row">
-          <a href="javascript:void(0)" onclick="openCity(event, 'Und-Apply');">
-            <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding ">How to apply</div>
+          <a href="javascript:void(0)" onclick="openUnd(event, 'Und-Apply');">
+            <div class="w3-third tablink1 w3-bottombar w3-hover-light-grey w3-padding ">How to apply</div>
           </a>
-          <a href="javascript:void(0)" onclick="openCity(event, 'Und-Programmes');">
-            <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding w3-border-red">Programmes</div>
+          <a href="javascript:void(0)" onclick="openUnd(event, 'Und-Programmes');">
+            <div class="w3-third tablink1 w3-bottombar w3-hover-light-grey w3-padding w3-border-red">Programmes</div>
           </a>
-          <a href="javascript:void(0)" onclick="openCity(event, 'Und-Modules');">
-            <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">Modules</div>
+          <a href="javascript:void(0)" onclick="openUnd(event, 'Und-Modules');">
+            <div class="w3-third tablink1 w3-bottombar w3-hover-light-grey w3-padding">Modules</div>
           </a>
         </div>
       
-        <div id="Und-Apply" class="w3-container city" style="display:none">
+        <div id="Und-Apply" class="w3-container und" style="display:none">
           <br/>
-          Undergraduate programme applications are completed through a central university system. You can read up on the different physics programmes on the programmes tab for more information on what we offer. Once you've made your decision, head on over to the <a href="https://www.sun.ac.za/english/maties/apply/explore-your-options" target="_blank">maties page to apply</a>.
+          Undergraduate programme applications are completed through a central university system. You can read up on the different physics programmes on the programmes tab for more information on what we offer. Once you've made your decision, head on over to the maties page to apply.<br/><a href="https://www.sun.ac.za/english/maties/apply/explore-your-options" target="_blank" class="more "><i class="material-icons w3-right w3-xxlarge">arrow_forward</i></a>
         </div>
       
-        <div id="Und-Programmes" class="w3-container city" >
+        <div id="Und-Programmes" class="w3-container und" >
           <br/>
           Undergradute physics programmes follow a general BSc Physics curriculum at undergraduate level with specialization occuring at BSC Honours level. Topics cover  in the physics programme are aligned with the research interests and activities of the Nuclear Physics group, Laser Research Institute and Insitute for Theoretical Physics.
 
@@ -97,18 +98,18 @@
 
         </div>
       
-        <div id="Und-Modules" class="w3-container city" style="display:none">
+        <div id="Und-Modules" class="w3-container und" style="display:none">
           <br/>
           Follow below links to read more on the specific modules.
           <table  cellspacing="1" style="width: 100%;">
             <tbody>
                <tr>
-                  <td  style="width: 33.33%;" valign="bottom"><h2>​​​First Year</h2></td>
+                  <td  style="width: 33.33%;" valign="bottom"><h2>​​​First Year</h2><h2>​​​First Year</h2></td>
                   <td  style="width: 33.33%;" valign="bottom">​<h2>Second Year</h2></td>
                   <td  style="width: 33.33%;" valign="bottom"><h2>​Third Year</h2></td>
                </tr>
                <tr>
-                  <td valign="top"><p style="font-size:85%;line-height: 2;">
+                  <td valign="top"><p style="font-size:80%;line-height: 2;">
                     <a href="http://www.sun.ac.za/english/faculty/science/physics/Documents/Modules/113.pdf" target="_blank" class="more">
                     ​​113 (8) Engineering Physics</a><br/>
                     <a href="http://www.sun.ac.za/english/faculty/science/physics/Documents/Modules/152.pdf" target="_blank" class="more">
@@ -126,7 +127,7 @@
                     <a href="http://www.sun.ac.za/english/faculty/science/physics/Documents/Modules/154.pdf" target="_blank" class="more">
                     154 (16) Introductory Physics for Biological Sciences B</a></p></td>
 
-                  <td valign="top"><p style="font-size:85%;line-height: 2;">
+                  <td valign="top"><p style="font-size:80%;line-height: 2;">
                     <a href="http://www.sun.ac.za/english/faculty/science/physics/Documents/Modules/214.pdf" target="_blank" class="more">
                     214 (16) Computational Physics A</a><br/>
                     <a href="http://www.sun.ac.za/english/faculty/science/physics/Documents/Modules/224.pdf" target="_blank" class="more">
@@ -136,7 +137,7 @@
                     <a href="http://www.sun.ac.za/english/faculty/science/physics/Documents/Modules/254.pdf" target="_blank" class="more">
                     254 (16) Electromagnetism & Introduction to Quantum Physics</a></p>​</td>
 
-                  <td valign="top"><p style="font-size:85%;line-height: 2;">
+                  <td valign="top"><p style="font-size:80%;line-height: 2;">
                     <a href="http://www.sun.ac.za/english/faculty/science/physics/Documents/Modules/314.pdf" target="_blank" class="more">
                     314 (16) Statistical Physics A</a><br/>
                     <a href="http://www.sun.ac.za/english/faculty/science/physics/Documents/Modules/334.pdf" target="_blank" class="more">
@@ -156,13 +157,158 @@
          </table>
         </div>
       </div>
-      <div id="post-side" class="w3-container side" style="display:none">
+      <div id="hons-side" class="w3-container side" style="display:none">
         
 
-        <!-----Put postgrad stuff here----->
-      </div>
+          <div class="w3-row">
+              <a href="javascript:void(0)" onclick="openHons(event, 'hons-Apply');">
+                <div class="w3-third tablink2 w3-bottombar w3-hover-light-grey w3-padding">How to apply</div>
+              </a>
+              <a href="javascript:void(0)" onclick="openHons(event, 'hons-Programme');">
+                <div class="w3-third tablink2 w3-bottombar w3-hover-light-grey w3-padding  w3-border-red">Programmes</div>
+              </a>
+              <a href="javascript:void(0)" onclick="openHons(event, 'hons-Module');">
+                <div class="w3-third tablink2 w3-bottombar w3-hover-light-grey w3-padding">Modules</div>
+              </a>
+          </div>
+          
+          <div id="hons-Apply" class="w3-container hons" style="display:none">
+              
+              
+          </div>
+          
+            <div id="hons-Programme" class="w3-container hons" >
+                <h3>Nuclear Physics</h3>
+                <p style="padding-left:5%">Nuclear physics
+                <a href ="http://www.sun.ac.za/english/faculty/science/physics/Documents/Programmes/Hons%20in%20KERNFISIKA.pdf" target="_blank"><i class="material-icons w3-text-blue w3-right">open_in_new</i></a>
+                 </p>
+                 <p style="padding-left:5%">Radiation and health physics
+                    <a href ="http://www.sun.ac.za/english/faculty/science/physics/Documents/Programmes/Hons%20in%20STRALINGS-%20EN%20GESONDHEIDSFISIKA.pdf" target="_blank"><i class="material-icons w3-text-blue w3-right">open_in_new</i></a>
+                     </p>
+                 <hr/>
+                
+                <h2>Laser Physics</h2>
+                <p style="padding-left:5%">Laser physics
+                  <a href ="http://www.sun.ac.za/english/faculty/science/physics/Documents/Programmes/Hons%20in%20LASERFISIKA.pdf" target="_blank"><i class="material-icons w3-text-blue w3-right">open_in_new</i></a>
+                  </p>
+                  <hr/>
+                <h2>Theoretical Physics</h2>
+                <p style="padding-left:5%">Theoretical physics
+                  <a href ="http://www.sun.ac.za/english/faculty/science/physics/Documents/Programmes/Hons%20in%20TEORETIESE%20FISIKA.pdf" target="_blank"><i class="material-icons w3-text-blue w3-right">open_in_new</i></a>
+                  </p>
+                  <hr/> 
+            </div>
+          
+            <div id="hons-Module" class="w3-container hons" style="display:none">
+                <h2>​​​Honours modules</h2>
+                <p style="font-size:80%;line-height: 2;">
+                  <a href="http://www.sun.ac.za/english/faculty/science/physics/Documents/Modules/711.pdf" target="_blank" class="more">
+                711 (8)    Electromagnetism</a><br/>
+                <a href="http://www.sun.ac.za/english/faculty/science/physics/Documents/Modules/712.pdf" target="_blank" class="more">
+                712 (8)    Lagrange- and Hamilton Mechanics</a><br/>
+                <a href="http://www.sun.ac.za/english/faculty/science/physics/Documents/Modules/713.pdf" target="_blank" class="more">
+                713 (8)    Solid State Physics</a><br/>
+                <a href="http://www.sun.ac.za/english/faculty/science/physics/Documents/Modules/714.pdf" target="_blank" class="more">
+                714 (16)  Quantum Mechanics B </a><br/>
+                <a href="http://www.sun.ac.za/english/faculty/science/physics/Documents/Modules/716.pdf" target="_blank" class="more">
+                716 (8)    Atomic Physics</a><br/>
+                <a href="http://www.sun.ac.za/english/faculty/science/physics/Documents/Modules/718.pdf" target="_blank" class="more">
+                718 (8)    Interactions of Radiation</a><br/>
+                <a href="http://www.sun.ac.za/english/faculty/science/physics/Documents/Modules/719.pdf" target="_blank" class="more">
+                719 (8)    Quantum Mechanics C</a><br/>
+                <a href="http://www.sun.ac.za/english/faculty/science/physics/Documents/Modules/721.pdf" target="_blank" class="more">
+                721 (16)  Statistical Physics B</a> <br/>
+                <a href="http://www.sun.ac.za/english/faculty/science/physics/Documents/Modules/741.pdf" target="_blank" class="more">
+                741 (32)  Physics Project</a><br/>
+                <a href="http://www.sun.ac.za/english/faculty/science/physics/Documents/Modules/744.pdf" target="_blank" class="more">
+                744 (8)    Laser Spectroscopy </a><br/>
+                <a href="http://www.sun.ac.za/english/faculty/science/physics/Documents/Modules/745.pdf" target="_blank" class="more">
+                745 (16)  Quantum Optics & Laser Techniques </a><br/>
+                <a href="http://www.sun.ac.za/english/faculty/science/physics/Documents/Modules/747.pdf" target="_blank" class="more">
+                ​747 (8)    Molecular Physics</a><br/>
+                <a href="http://www.sun.ac.za/english/faculty/science/physics/Documents/Modules/748.pdf" target="_blank" class="more">
+                748 (8)    Nuclear Reactions and Nuclear Structure</a><br/>
+                <a href="http://www.sun.ac.za/english/faculty/science/physics/Documents/Modules/750.pdf" target="_blank" class="more">
+                750 (8)    Physics of Radiation Dosimetry /  Radiology</a><br/>
+                <a href="http://www.sun.ac.za/english/faculty/science/physics/Documents/Modules/751.pdf" target="_blank" class="more">
+                751 (8)    Physics of Nuclear Medicine</a><br/>
+                <a href="http://www.sun.ac.za/english/faculty/science/physics/Documents/Modules/752.pdf" target="_blank" class="more">
+                752 (8)    Physics of Radiotherapy</a><br/>
+                <a href="http://www.sun.ac.za/english/faculty/science/physics/Documents/Modules/753.pdf" target="_blank" class="more">
+                753 (8)    Radiation Protection</a><br/>
+                <a href="http://www.sun.ac.za/english/faculty/science/physics/Documents/Modules/754.pdf" target="_blank" class="more">
+                754 (8)    Many-body theory</a><br/>
+                <a href="http://www.sun.ac.za/english/faculty/science/physics/Documents/Modules/755.pdf" target="_blank" class="more">
+                755 (16)  Relativistic Quantum Mechanics & Quantum Field theory</a><br/>
+                <a href="http://www.sun.ac.za/english/faculty/science/physics/Documents/Modules/757.pdf" target="_blank" class="more">
+                757 (8)    Entropy and Information</a><br/>
+                <a href="" target="_blank" class="more">
+                758 (8)    Dynamical Systems and Complexity</a><br/>
+                <a href="pdf" target="_blank" class="more">
+                772 (16)  Optics</a></p>
+            </div>
+
+            
+        </div>
+
+        <div id="post-side" class="w3-container side" style="display:none">
+            <div class="w3-row">
+                <a href="javascript:void(0)" onclick="openPost(event, 'post-apply');">
+                  <div class="w3-third tablink3 w3-bottombar w3-hover-light-grey w3-padding w3-border-red">How to apply</div>
+                </a>
+                <a href="javascript:void(0)" onclick="openPost(event, 'post-fund');">
+                  <div class="w3-third tablink3 w3-bottombar w3-hover-light-grey w3-padding">Funding</div>
+                </a>
+                <a href="javascript:void(0)" onclick="openPost(event, 'post-contact');">
+                  <div class="w3-third tablink3 w3-bottombar w3-hover-light-grey w3-padding">Queries</div>
+                </a>
+            </div>
+            
+            <div id="post-apply" class="w3-container postgrad">
+                <p>
+                    You will see that there is a range of experimental and theoretical disciplines with a wealth of projects available in the Department of Physics at Stellenbosch University. We welcome your queries and application to join our research programmes. The research we do is presented on the web pages of the Physics Department.  Take the time to explore under the dropdown menu item “Research” above. There you will also find individual researchers’ or groups’ contact details for your enquiries about research programmes.
+                </p>
+                <p>
+                    If you wish to apply to be accepted for a Masters or Doctoral research programme, please read the following points to expedite your application process.<br/>
+                    <ol type="1">
+                    <li>Please take a look at groups’ and individual researchers’ web sites to identify a possible field or fields you might be interested in doing your degree. Contact potential supervisors, asking them about projects. </li>
+                    <li>	When you have identified potential supervisors (this need not be final yet) you should apply through the central applications system of Stellenbosch University. 
+                      <ol type="a">
+                    <li>	We are pleased about your enquiries about research throughout the year, but take note of closing dates for applications <span style="font-weight: 600;"><a href="http://www.sun.ac.za/english/maties/Pages/Apply-ClosingDates.aspx" target="_blank" class="more">here</a></span> </li>
+                    <li>	Many practical details about Stellenbosch and your application are available at http://www0.sun.ac.za/pgstudies/. If you are an international student, please also study https://www0.sun.ac.za/international/  carefully.</li>
+                    <li>	Follow the application procedure on the web site of Stellenbosch University.
+                    Application link: https://web-apps.sun.ac.za/eAansoek2/alg.jsp?Tl=1</li>
+                    <li>	On your application: Please indicate in which field you would like to do research and the names of the persons with whom you have communicated and perhaps agreed on a research topic. </li>
+                        <li>	Your application to the University will be forwarded to the Physics Department, which consults with the group or potential supervisors you have identified. The Department shall issue final approval once a research project and supervisor(s) have been approved.</li></ol></li>
+                  </ol>
+                    
+                </p>
+                
+            </div>
+
+            <div id="post-fund" class="w3-container postgrad" style="display:none">
+                <p>
+                    Please keep in mind that approval of your application does not mean that the University of Stellenbosch or the Physics Department will provide you with a bursary. In general potential funders want to see a project proposal and have a letter of support from the future supervisor. It is therefore necessary to apply for bursaries well ahead of your planned start at Stellenbosch University. You can ask your potential supervisor for advice on possible funding agencies where you could apply for a bursary, and you should consult the websites below. 
+                    <ul>
+                    <li>Stellenbosch University website on bursaries: http://www0.sun.ac.za/pgstudies/postgraduate-funding-and-support.html</li>
+                    <li>The National Research Foundation: http://www.nrf.ac.za/bursaries/calls</li>
+                    <li>The World Academy of Science: https://twas.org/opportunities/fellowships</li>
+                    <li>The Organisation for Women in Science for the Developing World: https://owsd.net/career-development/phd-fellowship</li>
+                  </ul>
+                </p>
+                
+            </div>
+
+              <div id="post-contact" class="w3-container postgrad" style="display:none">
+                <p>
+                    Should you have any problems with or queries regarding your application please feel free to contact us at  physoffice@sun.ac.za or physpostgrad@sun.ac.za or follow up on the status of your application through your supervisor.
+                </p>
+                
+              </div>
+        </div>
     
     </div>
+  </div>
       
       <script>
         function openSide(evt, cityName) {
@@ -179,13 +325,39 @@
           evt.currentTarget.className += " w3-red";
         }
 
-        function openCity(evt, cityName) {
+        function openUnd(evt, cityName) {
           var i, x, tablinks;
-          x = document.getElementsByClassName("city");
+          x = document.getElementsByClassName("und");
           for (i = 0; i < x.length; i++) {
             x[i].style.display = "none";
           }
-          tablinks = document.getElementsByClassName("tablink");
+          tablinks = document.getElementsByClassName("tablink1");
+          for (i = 0; i < x.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" w3-border-red", "");
+          }
+          document.getElementById(cityName).style.display = "block";
+          evt.currentTarget.firstElementChild.className += " w3-border-red";
+        }
+        function openHons(evt, cityName) {
+          var i, x, tablinks;
+          x = document.getElementsByClassName("hons");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+          }
+          tablinks = document.getElementsByClassName("tablink2");
+          for (i = 0; i < x.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" w3-border-red", "");
+          }
+          document.getElementById(cityName).style.display = "block";
+          evt.currentTarget.firstElementChild.className += " w3-border-red";
+        }
+        function openPost(evt, cityName) {
+          var i, x, tablinks;
+          x = document.getElementsByClassName("postgrad");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+          }
+          tablinks = document.getElementsByClassName("tablink3");
           for (i = 0; i < x.length; i++) {
             tablinks[i].className = tablinks[i].className.replace(" w3-border-red", "");
           }
