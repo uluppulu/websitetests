@@ -6,91 +6,108 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <title>Undergraduate Information</title>
   </head>
   <body>
     
-    <div class="accordion" id="accordionExample">
-        <div class="card">
-          <div class="card-header" id="headingOne">
-            <h5 class="mb-0">
-              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                How to apply
-              </button>
-            </h5>
-          </div>
       
-          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-            <div class="card-body">
-              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-            </div>
-          </div>
+        
+      <div class="w3-container">
+          
+        <div class="w3-row">
+          <a href="javascript:void(0)" onclick="openCity(event, 'Und-Apply');">
+            <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">How to apply</div>
+          </a>
+          <a href="javascript:void(0)" onclick="openCity(event, 'Und-Programmes');">
+            <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">Undergraduate programmes</div>
+          </a>
+          <a href="javascript:void(0)" onclick="openCity(event, 'Und-Modules');">
+            <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">Undergraduate modules</div>
+          </a>
         </div>
-        <div class="card">
-          <div class="card-header" id="headingTwo">
-            <h5 class="mb-0">
-              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                Programmes
-              </button>
-            </h5>
-          </div>
-          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-            <div class="card-body">
-              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-            </div>
-          </div>
+      
+        <div id="Und-Apply" class="w3-container city" style="display:none">
+          <br/>
+          Undergraduate programme applications are completed through a central university system. You can read up on the different physics programmes on the programmes tab for more information on what we offer. Once you've made your decision, head on over to the <a href="https://www.sun.ac.za/english/maties/apply/explore-your-options" target="blank">maties page to apply</a>.
         </div>
-        <div class="card">
-          <div class="card-header" id="headingThree">
-            <h5 class="mb-0">
-              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                Modules
-              </button>
-            </h5>
-          </div>
-          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-            <div class="card-body">
-              <table  cellspacing="1" style="width: 100%;">
-                <tbody>
-                   <tr>
-                      <td  style="width: 33.33%;"><h1>​​​First Year</h1></td>
-                      <td  style="width: 33.33%;">​<h1>Second Year</h1></td>
-                      <td  style="width: 33.33%;"><h1>​Third Year</h1></td>
-                   </tr>
-                   <tr>
-                      <td valign="top"><p style="font-size:70%;">​​113 (8)   Engineering Physics (2l, ​ ½p,  ½t)<br/>
-                        152 (6) Engineering Physics (3t)<br/>
-                        ​​​​​​​​114 (16) Introductory Physics A (3l, 3p)<br/>
-                        134 (16) Introductory Physics for Biological Sciences A (3l 3p)<br/>
-                        142 (8)   Special Physics for Occupational Therapy Students (2l, 1t)<br/>
-                        144 (16) Introductory Physics B (3l, 3p)<br/>
-                        176 (32) Preparatory Physics A (3l, 3p)<br/>
-                        154 (16) Introductory Physics for Biological Sciences B (3l, 3p)</p></td>
-                      <td valign="top"><p style="font-size:70%;">214 (16) Computational Physics A (3l, 3p)<br/>
-                        224 (16) Classica​l Mechanics, Waves and Optics (3l, 3p)<br/>
-                        244 (16) Computational Physics B (3l, 3p)<br/>
-                        254 (16) Electromagnetism & Introduction to Quantum Physics (3l, 3p)</p>​</td>
-                      <td valign="top"><p style="font-size:70%;">314 (16) Statistical Physics A (3l, 3p)<br/>
-                        334 (16) Quantum Mechanics A (With applications) (3l, 3p)<br/>
-                        342 (8)  Electromagnetism and Relativity (1½ l, 1½ p)<br/>
-                        344 (16) Computational Physics C (Monte Carlo Methods in Physics)  (3l, 3p)<br/>
-                        352 (8)   Atomic- and Nuclear Physics (1½ l, 1½ p)<br/>
-                        372 (8)   Project (Physical and mathematical Analysis) (1 ½l, 1 ½p)<br/>
-                        384 (16) Experimental work in Physics (3l, 3p)</p>​</td>
-                   </tr>
-                </tbody>
-             </table>
-            </div>
-          </div>
+      
+        <div id="Und-Programmes" class="w3-container city" style="display:none">
+          <br/>
+          Undergradute physics programmes follow a general BSc Physics curriculum at undergraduate level with specialization occuring at BSC Honours level. Topics cover  in the physics programme are aligned with the research interests and activities of the Nuclear Physics group, Laser Research Institute and Insitute for Theoretical Physics.
+
+          <h2>Nuclear Physics</h2>
+          <p> 
+          <a href ="http://www.sun.ac.za/english/faculty/science/physics/Documents/Programmes/VG%20Teoretiese%20fisika.pdf?d=waac8d45568eb47e3846ecc96be61d969" target="blank"><i class="material-icons w3-text-blue">open_in_new</i></a>
+          &#160;Nuclear physics & Radiation and health physics  </p>
+          
+          <h2>Laser Physics</h2>
+          <p> 
+            <a href ="http://www.sun.ac.za/english/faculty/science/physics/Documents/Programmes/VG%20Laserfisika%20(Biologies).pdf?d=w4684c1a8559d4316a5e4fa05b2e4a3e4" target="blank"><i class="material-icons w3-text-blue">open_in_new</i></a>
+            &#160;Laser physics - biological stream</p>
+            <p> 
+              <a href ="http://www.sun.ac.za/english/faculty/science/physics/Documents/Programmes/VG%20Laserfisika%20(Fisiese)%20-%20Kernfisika%2C%20stralings-%20en%20gesondheidsfisika.pdf?d=wf4041404f6b54214926d1cd7c500602e" target="blank"><i class="material-icons w3-text-blue">open_in_new</i></a>
+              &#160;Laser physics - physical stream</p>
+          <h2>Theoretical Physics</h2>
+          <p> 
+            <a href ="http://www.sun.ac.za/english/faculty/science/physics/Documents/Programmes/VG%20Teoretiese%20fisika.pdf?d=waac8d45568eb47e3846ecc96be61d969" target="blank"><i class="material-icons w3-text-blue">open_in_new</i></a>
+            &#160;Nuclear physics & Radiation and health physics  </p>
+
+        </div>
+      
+        <div id="Und-Modules" class="w3-container city" style="display:none">
+          <table  cellspacing="1" style="width: 100%;">
+            <tbody>
+               <tr>
+                  <td  style="width: 33.33%;"><h1>​​​First Year</h1></td>
+                  <td  style="width: 33.33%;">​<h1>Second Year</h1></td>
+                  <td  style="width: 33.33%;"><h1>​Third Year</h1></td>
+               </tr>
+               <tr>
+                  <td valign="top"><p style="font-size:70%;">​​113 (8)   Engineering Physics (2l, ​ ½p,  ½t)<br/>
+                    152 (6) Engineering Physics (3t)<br/>
+                    ​​​​​​​​114 (16) Introductory Physics A (3l, 3p)<br/>
+                    134 (16) Introductory Physics for Biological Sciences A (3l 3p)<br/>
+                    142 (8)   Special Physics for Occupational Therapy Students (2l, 1t)<br/>
+                    144 (16) Introductory Physics B (3l, 3p)<br/>
+                    176 (32) Preparatory Physics A (3l, 3p)<br/>
+                    154 (16) Introductory Physics for Biological Sciences B (3l, 3p)</p></td>
+                  <td valign="top"><p>214 (16) Computational Physics A (3l, 3p)<br/>
+                    224 (16) Classica​l Mechanics, Waves and Optics (3l, 3p)<br/>
+                    244 (16) Computational Physics B (3l, 3p)<br/>
+                    254 (16) Electromagnetism & Introduction to Quantum Physics (3l, 3p)</p>​</td>
+                  <td valign="top"><p>314 (16) Statistical Physics A (3l, 3p)<br/>
+                    334 (16) Quantum Mechanics A (With applications) (3l, 3p)<br/>
+                    342 (8)  Electromagnetism and Relativity (1½ l, 1½ p)<br/>
+                    344 (16) Computational Physics C (Monte Carlo Methods in Physics)  (3l, 3p)<br/>
+                    352 (8)   Atomic- and Nuclear Physics (1½ l, 1½ p)<br/>
+                    372 (8)   Project (Physical and mathematical Analysis) (1 ½l, 1 ½p)<br/>
+                    384 (16) Experimental work in Physics (3l, 3p)</p>​</td>
+               </tr>
+            </tbody>
+         </table>
         </div>
       </div>
-   
+      
+      <script>
+      function openCity(evt, cityName) {
+        var i, x, tablinks;
+        x = document.getElementsByClassName("city");
+        for (i = 0; i < x.length; i++) {
+           x[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablink");
+        for (i = 0; i < x.length; i++) {
+           tablinks[i].className = tablinks[i].className.replace(" w3-border-red", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.firstElementChild.className += " w3-border-red";
+      }
+      </script>
+ 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  </body>
-</html>
+   </html>
