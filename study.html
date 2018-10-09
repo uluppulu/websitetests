@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>Sudy at Stellenbosch</title>
+
+    <style>
+      /* unvisited link */
+      a.more:link {
+          color: black;
+          text-decoration: none;
+      }
+      
+      /* visited link */
+      a.more:visited {
+          color: black;
+          text-decoration: none;
+      }
+      
+      /* mouse over link */
+      a.more:hover {
+          color: rgb(181,24,45);
+          text-decoration: underline;
+          font-weight:bold;
+      }
+      
+      /* selected link */
+      a.more:active {
+          color:  rgb(181,24,45);
+          text-decoration: none;
+      }
+      </style>
+  </head>
+  <body>
+    
+      
+        
+      <div class="w3-container">
+        <div class="w3-sidebar w3-bar-block w3-light-grey w3-card" style="width:20%">
+          <h5 class="w3-bar-item">Select one</h5>
+          <button class="w3-bar-item w3-button side-tablink w3-red" onclick="openSide(event, 'und-side')">Undergraduate Information</button>
+         
+          <button class="w3-bar-item w3-button side-tablink" onclick="openSide(event, 'post-side')">Postgraduate Information</button>
+        </div>
+        
+        <div style="margin-left:20%">
+          <div class="w3-padding">Vertical Tab Example (sidebar)</div>
+        
+          <div id="und-side" class="w3-container side" >
+        <!-------------------______________________________________________________________________________________________________-->
+        <div class="w3-row">
+          <a href="javascript:void(0)" onclick="openCity(event, 'Und-Apply');">
+            <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding ">How to apply</div>
+          </a>
+          <a href="javascript:void(0)" onclick="openCity(event, 'Und-Programmes');">
+            <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding w3-border-red">Undergraduate programmes</div>
+          </a>
+          <a href="javascript:void(0)" onclick="openCity(event, 'Und-Modules');">
+            <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">Undergraduate modules</div>
+          </a>
+        </div>
+      
+        <div id="Und-Apply" class="w3-container city" style="display:none">
+          <br/>
+          Undergraduate programme applications are completed through a central university system. You can read up on the different physics programmes on the programmes tab for more information on what we offer. Once you've made your decision, head on over to the <a href="https://www.sun.ac.za/english/maties/apply/explore-your-options" target="_blank">maties page to apply</a>.
+        </div>
+      
+        <div id="Und-Programmes" class="w3-container city" >
+          <br/>
+          Undergradute physics programmes follow a general BSc Physics curriculum at undergraduate level with specialization occuring at BSC Honours level. Topics cover  in the physics programme are aligned with the research interests and activities of the Nuclear Physics group, Laser Research Institute and Insitute for Theoretical Physics.
+
+          <h3>Nuclear Physics</h3>
+          <p style="padding-left:5%">Nuclear physics & Radiation and health physics
+          <a href ="http://www.sun.ac.za/english/faculty/science/physics/Documents/Programmes/VG%30Teoretiese%20fisika.pdf?d=waac8d45568eb47e3846ecc96be61d969" target="_blank"><i class="material-icons w3-text-blue w3-right">open_in_new</i></a>
+           </p>
+           <hr/>
+          
+          <h2>Laser Physics</h2>
+          <p style="padding-left:5%">Laser physics - biological stream
+            <a href ="http://www.sun.ac.za/english/faculty/science/physics/Documents/Programmes/VG%20Laserfisika%20(Biologies).pdf?d=w4684c1a8559d4316a5e4fa05b2e4a3e4" target="_blank"><i class="material-icons w3-text-blue w3-right">open_in_new</i></a>
+            </p>
+          <p style="padding-left:5%">Laser physics - physical stream
+              <a href ="http://www.sun.ac.za/english/faculty/science/physics/Documents/Programmes/VG%20Laserfisika%20(Fisiese)%20-%20Kernfisika%2C%20stralings-%20en%20gesondheidsfisika.pdf?d=wf4041404f6b54214926d1cd7c500602e" target="_blank"><i class="material-icons w3-text-blue w3-right">open_in_new</i></a>
+              </p>
+              <hr/>
+          <h2>Theoretical Physics</h2>
+          <p style="padding-left:5%">Theoretical physics
+            <a href ="http://www.sun.ac.za/english/faculty/science/physics/Documents/Programmes/VG%20Teoretiese%20fisika.pdf?d=waac8d45568eb47e3846ecc96be61d969" target="_blank"><i class="material-icons w3-text-blue w3-right">open_in_new</i></a>
+            </p>
+            <hr/>
+
+        </div>
+      
+        <div id="Und-Modules" class="w3-container city" style="display:none">
+          <br/>
+          Follow below links to read more on the specific modules.
+          <table  cellspacing="1" style="width: 100%;">
+            <tbody>
+               <tr>
+                  <td  style="width: 33.33%;" valign="bottom"><h2>​​​First Year</h2></td>
+                  <td  style="width: 33.33%;" valign="bottom">​<h2>Second Year</h2></td>
+                  <td  style="width: 33.33%;" valign="bottom"><h2>​Third Year</h2></td>
+               </tr>
+               <tr>
+                  <td valign="top"><p style="font-size:85%;line-height: 2;">
+                    <a href="http://www.sun.ac.za/english/faculty/science/physics/Documents/Modules/113.pdf" target="_blank" class="more">
+                    ​​113 (8) Engineering Physics</a><br/>
+                    <a href="http://www.sun.ac.za/english/faculty/science/physics/Documents/Modules/152.pdf" target="_blank" class="more">
+                    152 (6) Engineering Physics</a><br/>
+                    <a href="http://www.sun.ac.za/english/faculty/science/physics/Documents/Modules/114.pdf" target="_blank" class="more">
+                    ​​​​​​​​114 (16) Introductory Physics A</a><br/>
+                    <a href="http://www.sun.ac.za/english/faculty/science/physics/Documents/Modules/134.pdf" target="_blank" class="more">
+                    134 (16) Introductory Physics for Biological Sciences A</a><br/>
+                    <a href="http://www.sun.ac.za/english/faculty/science/physics/Documents/Modules/142.pdf" target="_blank" class="more">
+                    142 (8)  Special Physics for Occupational Therapy Students</a><br/>
+                    <a href="http://www.sun.ac.za/english/faculty/science/physics/Documents/Modules/144.pdf" target="_blank" class="more">
+                    144 (16) Introductory Physics B</a><br/>
+                    <a href="http://www.sun.ac.za/english/faculty/science/physics/Documents/Modules/176.pdf" target="_blank" class="more">
+                    176 (32) Preparatory Physics A</a><br/>
+                    <a href="http://www.sun.ac.za/english/faculty/science/physics/Documents/Modules/154.pdf" target="_blank" class="more">
+                    154 (16) Introductory Physics for Biological Sciences B</a></p></td>
+
+                  <td valign="top"><p style="font-size:85%;line-height: 2;">
+                    <a href="http://www.sun.ac.za/english/faculty/science/physics/Documents/Modules/214.pdf" target="_blank" class="more">
+                    214 (16) Computational Physics A</a><br/>
+                    <a href="http://www.sun.ac.za/english/faculty/science/physics/Documents/Modules/224.pdf" target="_blank" class="more">
+                    224 (16) Classica​l Mechanics, Waves and Optics</a><br/>
+                    <a href="http://www.sun.ac.za/english/faculty/science/physics/Documents/Modules/244.pdf" target="_blank" class="more">
+                    244 (16) Computational Physics B</a><br/>
+                    <a href="http://www.sun.ac.za/english/faculty/science/physics/Documents/Modules/254.pdf" target="_blank" class="more">
+                    254 (16) Electromagnetism & Introduction to Quantum Physics</a></p>​</td>
+
+                  <td valign="top"><p style="font-size:85%;line-height: 2;">
+                    <a href="http://www.sun.ac.za/english/faculty/science/physics/Documents/Modules/314.pdf" target="_blank" class="more">
+                    314 (16) Statistical Physics A</a><br/>
+                    <a href="http://www.sun.ac.za/english/faculty/science/physics/Documents/Modules/334.pdf" target="_blank" class="more">
+                    334 (16) Quantum Mechanics A</a><br/>
+                    <a href="http://www.sun.ac.za/english/faculty/science/physics/Documents/Modules/342.pdf" target="_blank" class="more">
+                    342 (8)  Electromagnetism and Relativity</a><br/>
+                    <a href="http://www.sun.ac.za/english/faculty/science/physics/Documents/Modules/344.pdf" target="_blank" class="more">
+                    344 (16) Computational Physics C</a><br/>
+                    <a href="http://www.sun.ac.za/english/faculty/science/physics/Documents/Modules/352.pdf" target="_blank" class="more">
+                    352 (8)   Atomic- and Nuclear Physics</a><br/>
+                    <a href="http://www.sun.ac.za/english/faculty/science/physics/Documents/Modules/372.pdf" target="_blank" class="more">
+                    372 (8)   Project (Physical and mathematical Analysis)</a><br/>
+                    <a href="http://www.sun.ac.za/english/faculty/science/physics/Documents/Modules/384.pdf" target="_blank" class="more">
+                    384 (16) Experimental work in Physics</a></p>​</td>
+               </tr>
+            </tbody>
+         </table>
+        </div>
+      </div>
+      <div id="post-side" class="w3-container side" style="display:none">
+        
+
+        <!-----Put postgrad stuff here----->
+      </div>
+    
+    </div>
+      
+      <script>
+        function openSide(evt, cityName) {
+          var i, x, tablinks;
+          x = document.getElementsByClassName("side");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+          }
+          tablinks = document.getElementsByClassName("side-tablink");
+          for (i = 0; i < x.length; i++) {
+              tablinks[i].className = tablinks[i].className.replace(" w3-red", ""); 
+          }
+          document.getElementById(cityName).style.display = "block";
+          evt.currentTarget.className += " w3-red";
+        }
+
+        function openCity(evt, cityName) {
+          var i, x, tablinks;
+          x = document.getElementsByClassName("city");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+          }
+          tablinks = document.getElementsByClassName("tablink");
+          for (i = 0; i < x.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" w3-border-red", "");
+          }
+          document.getElementById(cityName).style.display = "block";
+          evt.currentTarget.firstElementChild.className += " w3-border-red";
+        }
+      </script>
+ 
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+   </html>
