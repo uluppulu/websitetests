@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- w3  CSS -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Which course is right for me</title>
+    
+    <style>
+        a{
+            color:white;
+        }
+        a:hover{
+            text-decoration: none; 
+            color:white;
+        }
+        hr{ 
+            height:1px; 
+            visibility:hidden; 
+            margin-bottom:-1px; 
+        }
+    </style>
+
+  </head>
+  <body>
+        <div class="container-fluid">
+                <div class="row">
+                        <div class="col-sm-1" style="text-align:center">
+                        </div>
+                        <div class="col-sm-2 px-2" style="text-align:center">
+                                
+                            <a href="http://www.sun.ac.za/english/SUInternational/ADA/workshops-programmes/workshop-information#c1" target="_blank">
+                                <div class="w3-btn w3-red w3-ripple" style="white-space:normal !important; width:100%"  >
+                                   Creating a successful dissertation <br/>- Preparatory Session
+                                </div>
+                            </a><hr/>
+                            <a href="http://www.sun.ac.za/english/SUInternational/ADA/workshops-programmes/workshop-information#c2" target="_blank">
+                                <div class="w3-btn w3-red w3-ripple" style="white-space:normal !important; width:100%"  >
+                                 Preparing for your PhD: Considerations and planning your research project <br/>- Week 1
+                                </div>
+                            </a><hr/>
+                            <a href="http://www.sun.ac.za/english/SUInternational/ADA/workshops-programmes/workshop-information#c9" target="_blank">
+                                <div class="w3-btn w3-red w3-ripple" style="white-space:normal !important; width:100%"  >
+                                 Good research practice: Research ethics and beyond <br/>– Saturday
+                                </div>
+                            </a><hr/>
+                            <a href="http://www.sun.ac.za/english/SUInternational/ADA/workshops-programmes/workshop-information#c10" target="_blank">
+                                <div class="w3-btn w3-red w3-ripple" style="white-space:normal !important; width:100%"  >
+                                Project management principles: Planning and execution for your PhD <br/>– Saturday
+                                </div>
+                            </a><hr/>
+                            <a href="http://www.sun.ac.za/english/SUInternational/ADA/workshops-programmes/workshop-information#c11" target="_blank">
+                                <div class="w3-btn w3-red w3-ripple" style="white-space:normal !important; width:100%"  >
+                                 Grant writing fundamentals <br/>– Saturday
+                                </div>
+                            </a>
+                        </div><!-- Preparing for my PhD journey and planning my steps -->
+
+                        <div class="col-sm-2 px-2" style="text-align:center">
+                            <a href="http://www.sun.ac.za/english/SUInternational/ADA/workshops-programmes/workshop-information#c3" target="_blank">
+                                <div class="w3-btn w3-green w3-ripple" style="white-space:normal !important; width:100%"  >
+                                   Introduction to Quantitative research design and methodology <br/>- Week 1
+                                </div> 
+                            </a><hr/>
+                            <a href="http://www.sun.ac.za/english/SUInternational/ADA/workshops-programmes/workshop-information#c5" target="_blank">
+                                <div class="w3-btn w3-green w3-ripple" style="white-space:normal !important; width:100%"  >
+                                  Introduction to Qualitative research design and methodology <br/>- Week 1
+                                </div>
+                            </a><hr/>
+                            <a href="http://www.sun.ac.za/english/SUInternational/ADA/workshops-programmes/workshop-information#c12" target="_blank">
+                                <div class="w3-btn w3-green w3-ripple" style="white-space:normal !important; width:100%"  >
+                                    Doing case study research: Discourse, design and direction <br/>- Week 2
+                                </div>
+                            </a><hr/>
+                            <a href="http://www.sun.ac.za/english/SUInternational/ADA/workshops-programmes/workshop-information#c13" target="_blank">
+                                <div class="w3-btn w3-green w3-ripple" style="white-space:normal !important; width:100%"  >
+                                Design and analysis of experimental data <br/>- Week 2
+                                </div>
+                            </a><hr/>
+                            <a href="http://www.sun.ac.za/english/SUInternational/ADA/workshops-programmes/workshop-information#c15" target="_blank">
+                                <div class="w3-btn w3-green w3-ripple" style="white-space:normal !important; width:100%"  >
+                                Intersecting Qualitative with Mixed Methods research: Design and implementation <br/>- Week 2
+                            </div></a><hr/>
+
+                        </div><!-- Developing my research design and methodology skills -->
+
+                        <div class="col-sm-2 px-2" style="text-align:center">
+                                <a href="http://www.sun.ac.za/english/SUInternational/ADA/workshops-programmes/workshop-information#c4" target="_blank">
+                                    <div class="w3-btn w3-blue w3-ripple" style="white-space:normal !important; width:100%"  >
+                                    Introduction to SPSS <br/>- Week 1
+                                    </div>
+                                </a><hr/>
+                                <a href="http://www.sun.ac.za/english/SUInternational/ADA/workshops-programmes/workshop-information#c16" target="_blank">
+                                    <div class="w3-btn w3-blue w3-ripple" style="white-space:normal !important; width:100%"  >
+                                    Introduction to qualitative data analysis with ATLAS.ti <br/>- Week 2
+                                    </div>
+                                </a><hr/>
+
+                        </div><!-- Analysing my data -->
+
+                        <div class="col-sm-2 px-2" style="text-align:center">
+                            <a href="http://www.sun.ac.za/english/SUInternational/ADA/workshops-programmes/workshop-information#c6" target="_blank">
+                            <div class="w3-btn w3-deep-purple w3-ripple" style="white-space:normal !important; width:100%"  >
+                                Writing and publishing an article during the final phases of the PhD <br/>- Week 1
+                                </div>
+                            </a><hr/>
+                            <a href="http://www.sun.ac.za/english/SUInternational/ADA/workshops-programmes/workshop-information#c7" target="_blank">
+                                <div class="w3-btn w3-deep-purple w3-ripple" style="white-space:normal !important; width:100%"  >
+                                Confident public speaking <br/>– Saturday
+                                </div>
+                            </a><hr/>
+                            <a href="http://www.sun.ac.za/english/SUInternational/ADA/workshops-programmes/workshop-information#c8" target="_blank">
+                                <div class="w3-btn w3-deep-purple w3-ripple" style="white-space:normal !important; width:100%"  >
+                                Turning your Masters thesis into journal article <br/>– Saturday
+                                </div>
+                            </a><hr/>
+
+                        </div><!-- Research dissemination: Sharing and publishing my research   -->
+
+                        <div class="col-sm-2 px-2" style="text-align:center">
+                            <a href="http://www.sun.ac.za/english/SUInternational/ADA/workshops-programmes/workshop-information#c14" target="_blank">
+                                <div class="w3-btn w3-purple w3-ripple" style="white-space:normal !important; width:100%"  >
+                                Teaching in the digital world: The use of blended active learning strategies <br/>- Week 2
+                                </div>
+                            </a><hr/>
+                            
+                            <a href="http://www.sun.ac.za/english/SUInternational/ADA/workshops-programmes/workshop-information#c17" target="_blank">
+                                <div class="w3-btn w3-purple w3-ripple" style="white-space:normal !important; width:100%"  >
+                                Doctoral supervision for new and novice supervisors <br/>- Week 2
+                                </div>
+                            </a><hr/>
+
+                        </div> <!-- Next Steps: Supervising PhDs; Teaching and Learning  -->              
+                </div>
+        </div>
+  
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
